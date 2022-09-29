@@ -48,7 +48,7 @@
         UNITY_INSTANCING_BUFFER_START(Props)
             // put more per-instance properties here
         UNITY_INSTANCING_BUFFER_END(Props)
-        //默认为in输入，inout输入输出对应c# out
+        //默认为in输入，inout输入输出对应
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
             // Albedo comes from a texture tinted by color
