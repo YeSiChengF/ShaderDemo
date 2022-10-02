@@ -17,6 +17,7 @@
                   case 0:
                   col=float4(1,0,0,1);
                   break;
+                  //当i=1时可能会走到default，switch没有很好支持
                   case 1:
                   col=float4(0,1,0,1);
                   break;
