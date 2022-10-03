@@ -1,2 +1,6 @@
+Library
 Library/
 Temp/
+obj/
+.vs/
+.idea/
